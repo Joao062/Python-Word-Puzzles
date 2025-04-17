@@ -1,11 +1,6 @@
-word = "python"
+word = input("Write a word, and only a word huh...\nanswer:")
 
 def reverse(word):
-    reverseWord = ""
+    return word[::-1]
 
-    for i in word:
-        reverseWord = i + reverseWord
-
-    return reverseWord
-
-print(reverse("python"))
+print(reverse(word))
